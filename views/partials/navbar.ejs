@@ -9,11 +9,19 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="/Projects">Projects</a>
-          </li>
-        <li class="nav-item active">
             <a class="nav-link" href="/about">About</a>
           </li>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="/rsvp">RSVP-app</a>
+              <!-- <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a> -->
+            </div>
+          </div>
+        
     </ul>
     
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
