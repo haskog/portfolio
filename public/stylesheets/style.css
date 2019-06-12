@@ -15,3 +15,9 @@ body {
     color: black;
     border: solid 1px black;
 }
+
+.modal-footer,
+.modal-header {
+    background-color: #212529;
+    color: white;
+}
