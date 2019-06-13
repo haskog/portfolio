@@ -59,3 +59,8 @@ body {
   .btn-dl:hover {
     background-color: RoyalBlue;
   }
+
+  .footer {
+      position: fixed;
+      bottom: 0;
+  }
