@@ -27,12 +27,6 @@ body {
     color: white;
 }
 
-/* #profileImage {
-    margin-top: 11%;
-    margin-right: 15%;
-} */
-
-
 .btn-dl {
     background-color: DodgerBlue;
     border: none;
@@ -54,14 +48,25 @@ body {
   }
 
   #bioDiv {
-      align-content: center;
-      margin-top: 6%;
+       text-align: center;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
 
   #bioInfo {
-      text-align: center;
-      font-size: 35px;
-      margin-top: -31%;
+    text-align: center;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 180%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
   }
   
   #biopage {
