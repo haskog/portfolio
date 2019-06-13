@@ -63,3 +63,14 @@ body {
       font-size: 35px;
       margin-top: -31%;
   }
+  
+  #biopage {
+    text-align: center;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
