@@ -37,3 +37,25 @@ body {
     margin-left: 48%;
     font-size: 40px;
 } */
+
+#biopage {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 25%;
+    margin-top: 9%;
+}
+
+.btn-dl {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .btn-dl:hover {
+    background-color: RoyalBlue;
+  }
