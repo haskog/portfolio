@@ -3,6 +3,8 @@
 body {
     background-image: url(/backgroundimage.jpg);
     font-family: 'Allan', cursive;
+    padding: 0;
+    margin: 0;
 }
 
 .btn-primary,
@@ -25,7 +27,7 @@ body {
     color: white;
 }
 
-#profileImage {
+/* #profileImage {
     margin-top: 11%;
     margin-right: 15%;
 }
@@ -34,4 +36,4 @@ body {
     margin-top: -18%;
     margin-left: 48%;
     font-size: 40px;
-}
+} */
