@@ -104,6 +104,15 @@ body {
     margin-right: auto;
 }
 
+#cart-bio {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .icon-banner {
     margin-left: auto;
     margin-right: auto;
