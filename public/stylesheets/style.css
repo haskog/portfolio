@@ -85,14 +85,32 @@ body {
     margin-top: 20%;
 }
 
+.navbar {
+    z-index: 150;
+}
 
-#rsvp-app {
-    width: 600px;
+.iCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rsvp-bio {
+    width: 300px;
     height: 400px;
-    left: 50%;
-    margin-right: -50%;
-    z-index: 1;
-    /* transform: translate(-50%, -50%) */
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cart-bio {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
@@ -101,4 +119,11 @@ nav {
 
 #x {
   color: white;
+}
+
+.icon-banner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center; 
 }
