@@ -5,21 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Håkon Skogstø</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 <body>
+    <% include partials/head %>
     <div id="app">
         {{ message }}
     </div>
 
+    <div id="app2" :style="{ backgroundColor: activeColor }">
+        <p>Enter a color and see the magic!</p>
+        <input type="text" v-model="activeColor">
+    </div>
+    <% include partials/footer %>
     <script>
     var app = new Vue ({
         el: "#app",
         data: {
-            message: 'hello world'
+            message: 'Page created using vue.js'
+        }
+    })
+
+    var app = new Vue ({
+        el: "#app2",
+        data() {
+            return {
+                activeColor: "dodgerblue"
+            }
         }
     })
     </script>
+
+    <style>
+    #app2 {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    input {
+        text-align: center;
+    }
+    </style>
 </body>
 </html>
