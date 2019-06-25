@@ -22,6 +22,7 @@
         <input type="text" v-model="activeColor">
     </div>
     <% include partials/footer %>
+    <% include partials/script %>
     <script>
     var app = new Vue ({
         el: "#app",
@@ -37,7 +38,8 @@
                 activeColor: "dodgerblue"
             }
         }
-    })
+    });
+
     </script>
 
     <style>
